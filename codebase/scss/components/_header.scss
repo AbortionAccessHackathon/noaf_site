@@ -1,18 +1,22 @@
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
-padding: 30px;
-background: $lavendar; }
-.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
+padding: 30px; }
+.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h2 {
 color: $eggplant; }
 
-#header {
-  background: $lavendar;
-  padding: 30px;
-
-  h1, .logo a {
-    color: $eggplant;
-  }
+.canvas-style-masthead-logo-left.header-subtitle-none #header,
+.canvas-style-masthead-logo-right.header-subtitle-none #header {
+  padding-top: 30px !important;
 }
 
-.canvas-style-masthead-logo-left.header-subtitle-none #header, .canvas-style-masthead-logo-right.header-subtitle-none #header {
-  padding-top: 30px;
+//.collection-type-page #page {
+//  margin-top: 0;
+//}
+
+#header {
+  background: $eggplant;
+  padding: 30px;
+
+  .logo a {
+    color: white;
+  }
 }

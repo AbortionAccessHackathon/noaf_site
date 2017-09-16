@@ -2,25 +2,33 @@
 * {
   box-sizing: border-box; }
 
+#canvas {
+  padding: 0 !important;
+  max-width: 1400px !important;
+  margin: 0 !important; }
+
 /* Colors */
 /* Typography */
 q, blockquote {
   font-family: "Lora", serif; }
 
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
-  padding: 30px;
-  background: #FFF0F5; }
+  padding: 30px; }
 
-.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
+.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h2 {
   color: #694489; }
 
-#header {
-  background: #FFF0F5;
-  padding: 30px; }
-  #header h1, #header .logo a {
-    color: #694489; }
+.canvas-style-masthead-logo-left.header-subtitle-none #header,
+.canvas-style-masthead-logo-right.header-subtitle-none #header {
+  padding-top: 30px !important; }
 
-.canvas-style-masthead-logo-left.header-subtitle-none #header, .canvas-style-masthead-logo-right.header-subtitle-none #header {
-  padding-top: 30px; }
+#header {
+  background: #694489;
+  padding: 30px; }
+  #header .logo a {
+    color: white; }
+
+body #topNav a {
+  color: white !important; }
 
 /*# sourceMappingURL=style.css.map */
