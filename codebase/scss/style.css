@@ -1,8 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+* {
+  box-sizing: border-box; }
+
 /* Colors */
+/* Typography */
+q, blockquote {
+  font-family: "Lora", serif; }
+
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
   padding: 30px;
   background: #FFF0F5; }
-  .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
-    color: #694489; }
+
+.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
+  color: #694489; }
 
 /*# sourceMappingURL=style.css.map */
