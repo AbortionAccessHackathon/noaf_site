@@ -3,3 +3,7 @@ package-lock.json
 .idea
 /assets
 ../.idea
+.idea/
+node_modules/
+../node_modules
+../.idea
