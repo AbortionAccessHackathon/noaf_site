@@ -1,5 +1,18 @@
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
 padding: 30px;
-background: #FFF0F5; }
+background: $lavendar; }
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
-color: #694489; }
+color: $eggplant; }
+
+#header {
+  background: $lavendar;
+  padding: 30px;
+
+  h1, .logo a {
+    color: $eggplant;
+  }
+}
+
+.canvas-style-masthead-logo-left.header-subtitle-none #header, .canvas-style-masthead-logo-right.header-subtitle-none #header {
+  padding-top: 30px;
+}

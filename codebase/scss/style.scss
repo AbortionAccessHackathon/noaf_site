@@ -1,8 +1,8 @@
-@import "base";
-@import "variables";
-@import "mixins";
+@import "base.scss";
+@import "variables.scss";
+@import "mixins.scss";
 
-@import "components/header";
-@import "components/nav";
-@import "components/footer";
-@import "components/form";
+@import "components/header.scss";
+@import "components/nav.scss";
+@import "components/footer.scss";
+@import "components/form.scss";

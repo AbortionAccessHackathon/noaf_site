@@ -5,3 +5,5 @@ package-lock.json
 ../.idea
 .idea/
 node_modules/
+../node_modules
+../.idea
