@@ -13,6 +13,11 @@ gulp.task('watch', function() {
   gulp.watch('styles/main.scss', ['sass']);
 });
 
+gulp.copy('html', function() {
+  gulp.src('index.html')
+  .pipe(gulp.dest('assets'))
+});
+
 gulp.task('connect', function() {
   connect.server({
     root: 'assets',
@@ -23,6 +28,6 @@ gulp.task('connect', function() {
 /**
  * Build the project.
  */
-gulp.task("build", ['sass'], () => {
+gulp.task('default', ['sass', 'html'], () => {
     console.log("Building the project ...");
 });
