@@ -4,3 +4,10 @@ $lightgreen: #90d3b9;
 $brandpurple: #43377c;
 $darkpurple: #322b63;
 $darkgrey: #5b6468;
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+q, blockquote {
+	font-family: "Lora", serif;
+}
