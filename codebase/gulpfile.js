@@ -11,6 +11,7 @@ gulp.task('sass', function () {
 
 gulp.task('watch', function() {
   gulp.watch('scss/**.scss', ['sass']);
+  gulp.watch('**.html', ['html']);
 });
 
 gulp.task('html', function() {
@@ -28,6 +29,6 @@ gulp.task('connect', function() {
 /**
  * Build the project.
  */
-gulp.task('default', ['sass', 'html'], () => {
+gulp.task('default', ['sass', 'html', 'connect', 'watch'], () => {
     console.log("Building the project ...");
 });
