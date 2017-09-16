@@ -1,14 +1,14 @@
 # README
 
-## Installation
+## Development Setup
 
-First do this:
+If you want to run with the Pandas, you need to `gulp`!
 `sudo npm install --global gulp`
 
-Then do this inside of the `codebase` folder:
+Secondly, you'll need to install some extra `gulp` packages that make life easier:
 `npm install` OR `yarn install`
 
-Then do this:
-- Build CSS: `gulp sass`
-- Watch assets: `gulp watch`
-- Launch LiveServer: `gulp connect`
+Thirdly, you run with the Panda's by typing the following at the command line:
+`gulp`
+
+You should now have your files on watch, and a live server will be up at http://localhost:8080/ with the site
