@@ -1,0 +1,18 @@
+.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
+padding: 30px; }
+.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h2 {
+color: $eggplant; }
+
+.canvas-style-masthead-logo-left.header-subtitle-none #header,
+.canvas-style-masthead-logo-right.header-subtitle-none #header {
+  padding-top: 30px !important;
+}
+
+#header {
+  background: $eggplant;
+  padding: 30px;
+
+  .logo a {
+    color: white;
+  }
+}
