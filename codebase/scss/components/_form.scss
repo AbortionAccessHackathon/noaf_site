@@ -1,16 +1,25 @@
-.form-block {
-  background-color: $eggplant !important;
-  color: $white !important;
-  input {
-    color: $limegreen !important;
-    &.button {
-      background-color: $lightgreen !important;
-      color: $eggplant !important;
-      transition: all .5s ease;
-      &:hover,
-      &:focus {
-        background-color: $lightgreen !important;
-      }
-    }
-  }
+form {
+	background-color: $eggplant !important;
+	color: $white !important;
+  @extend %clearfix;
+  padding: 16px;
+  padding: 1rem;
+	input {
+		color: $limegreen !important;
+		padding: 16px;
+		&.button {
+			transition: all 0.5s ease;
+			border-width: 0 !important;
+			color: $eggplant !important;
+			background-color: $lightgreen !important;
+			&:hover,
+			&:focus {
+				background-color: $limegreen !important;
+			}
+		}
+	}
+	.field-list > div.form-item {
+		float: left;
+		width: 50%;
+	}
 }

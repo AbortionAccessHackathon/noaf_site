@@ -1,3 +1,24 @@
-body #topNav a {
-  color: $white !important;
+body #topNav ul li a {
+  color: $darkgrey;
+  background-color: $white !important;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .5px;
+  font-weight: bold;
+}
+
+body #topNav ul > li.active-link > a,
+body #categoryNav ul > li.active-link > a {
+  /* sorry. - Colin */
+  color: $limegreen !important;
+}
+
+#topNav nav, #categoryNav nav {
+  float: right !important;
+  width: inherit !important;
+  text-align: inherit !important;
+}
+
+#topNav {
+  flex-grow: 1 !important;
 }

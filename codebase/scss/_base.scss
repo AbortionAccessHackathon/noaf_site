@@ -3,49 +3,24 @@
 }
 
 #canvas {
-  margin: 0 !important; //sorry//
-  max-width: 1400px !important;
-  padding: 0 !important;
+  padding: 0;
+  margin: 0;
+	max-width: none;
 }
 
-// Typography 
+#page {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Typography
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
-h1 {
-  color: $limegreen;
-  font-family: 'Effra Bold', sans;
-  font-size: 48px;
-  font-size: 3em;
-  letter-spacing: 3px;
-  letter-spacing: .06em;
-  line-height: 1.25em;
-  text-transform: uppercase;
-}
-
-h2 {
-  color: $eggplant;
-  font-family: 'Effra Light', sans;
-  font-size: 22px;
-  font-size: 1.375em;
-  line-height: 1.33em;
-}
-
-h3 {
-  color: $limegreen;
-  font-family: 'Effra Bold', sans;
-  font-size: 18px;
-  font-size: 1.125em;
-  letter-spacing: 3px;
-  letter-spacing: .06em;
-}
-
 p {
-  color: $darkgrey;
-  font-family: 'Effra Light', sans;
-  font-size: 18px;
-  font-size: 1.125em;
   hyphens: none;
-  line-height: 1.25em;
 }
 
 q,
@@ -58,23 +33,10 @@ blockquote {
 a,
 a:link {
   border-bottom: solid 1px $limegreen;
-  color: $limegreen;
   text-decoration: none;
   transition: all .5s ease;
   &:hover {
     border-bottom-color: $lightgreen;
     color: $lightgreen;
-  }
-}
-
-
-#block-yui_3_17_2_3_1505592228283_7204,
-#block-yui_3_17_2_3_1505599786542_36045,
-#block-yui_3_17_2_3_1505599786542_37125 {
-  display: inline-block;
-  width: 30%;
-
-  +.sqs-block-spacer {
-    display: none !important;
   }
 }

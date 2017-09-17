@@ -33,17 +33,23 @@
   }
 }
 
-.canvas-style-masthead-logo-left.header-subtitle-none #header,
-.canvas-style-masthead-logo-right.header-subtitle-none #header {
-  padding-top: 30px !important;
-}
+/*.canvas-style-masthead-logo-left.header-subtitle-none #header #topNav li ,*/
+/*.canvas-style-masthead-logo-right.header-subtitle-none #header #topNav li {*/
+  /*padding-top: 60px !important;*/
+/*}*/
 
 #header {
-  background: $eggplant;
-  padding: 30px;
-  .logo {
-    a {
-      color: $white;
-    }
+  background: $white !important;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid $eggplant;
+
+  img {
+    float: left;
+    background-color: $eggplant;
+    padding: 30px !important;
   }
 }
+
