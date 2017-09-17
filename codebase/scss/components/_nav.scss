@@ -14,12 +14,10 @@ body #categoryNav ul > li.active-link > a {
 }
 
 body #topNav nav {
-  /*WIP */
-  margin-right: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
+  /*float: right;*/
+  /*position: absolute;*/
+  vertical-align: middle;
+  margin: auto;
+  /*margin-right: 15px;*/
+
 }
