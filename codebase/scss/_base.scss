@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+#canvas {
+  padding: 0;
+  margin: 0;
+	max-width: none;
+}
+
+#page {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+p {
+  hyphens: none;
+}
+
+q,
+blockquote {
+  color: $eggplant;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+a,
+a:link {
+  border-bottom: solid 1px $limegreen;
+  text-decoration: none;
+  transition: all .5s ease;
+  &:hover {
+    border-bottom-color: $lightgreen;
+    color: $lightgreen;
+  }
+}
