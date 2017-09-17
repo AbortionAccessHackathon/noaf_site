@@ -1,16 +1,27 @@
-.form-block {
+form {
 	background-color: $eggplant !important;
 	color: $white !important;
+  @extend %clearfix;
+  padding: 16px;
+  padding: 1rem;
 	input {
 		color: $limegreen !important;
+		padding: 16px;
 		&.button {
 			transition: all 0.5s ease;
+			border-width: 0 !important;
 			color: $eggplant !important;
 			background-color: $lightgreen !important;
+			font-family: "Effra", sans;
+			font-weight: bold;
 			&:hover,
 			&:focus {
-				background-color: $lightgreen !important;
+				background-color: $limegreen !important;
 			}
 		}
+	}
+	.field-list > div.form-item {
+		float: left;
+		width: 50%;
 	}
 }

@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lora");
+form::after {
+  clear: both;
+  content: '';
+  display: table; }
+
 * {
   box-sizing: border-box; }
 
@@ -103,14 +108,23 @@ body #topNav a {
   color: #FFFFFF;
   padding: 20px; }
 
-.form-block {
+form {
   background-color: #694489 !important;
-  color: #FFFFFF !important; }
-  .form-block input {
-    color: #4AC948 !important; }
-    .form-block input.button {
+  color: #FFFFFF !important;
+  padding: 16px;
+  padding: 1rem; }
+  form input {
+    color: #4AC948 !important;
+    padding: 16px; }
+    form input.button {
       transition: all 0.5s ease;
+      border-width: 0 !important;
       color: #694489 !important;
-      background-color: #90EE90 !important; }
-      .form-block input.button:hover, .form-block input.button:focus {
-        background-color: #90EE90 !important; }
+      background-color: #90EE90 !important;
+      font-family: "Effra", sans;
+      font-weight: bold; }
+      form input.button:hover, form input.button:focus {
+        background-color: #4AC948 !important; }
+  form .field-list > div.form-item {
+    float: left;
+    width: 50%; }
