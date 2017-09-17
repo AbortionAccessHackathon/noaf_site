@@ -4,6 +4,7 @@ body #topNav ul li a {
   vertical-align: middle !important;
 }
 
-.active-link {
+body #topNav ul > li.active-link > a,
+body #categoryNav ul >li.active-link > a {
   color: $limegreen !important;
 }
