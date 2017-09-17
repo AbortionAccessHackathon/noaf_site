@@ -1,7 +1,16 @@
-.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
-padding: 30px; }
-.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h2 {
-color: $eggplant; }
+@import '../../node_modules/sassdash/index';
+@import '../../node_modules/sass-svg/index';
+
+.col.sqs-col-12.span-12 {
+  .sqs-block.html-block.sqs-block-html:first-child {
+    .sqs-block-content {
+      padding: 30px;
+    }
+    h2 {
+      color: $eggplant;
+    }
+  }
+}
 
 .canvas-style-masthead-logo-left.header-subtitle-none #header #topNav li ,
 .canvas-style-masthead-logo-right.header-subtitle-none #header #topNav li {
@@ -16,5 +25,13 @@ color: $eggplant; }
     background-color: $eggplant;
     padding: 30px !important;
     /*margin: 0px;*/
+
+/*  background: $eggplant;
+  padding: 30px;
+  .logo {
+    a {
+      color: $white;
+    }
+*/
   }
 }
