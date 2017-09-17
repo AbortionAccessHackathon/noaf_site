@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box; }
 
+<<<<<<< HEAD
 #canvas {
   padding: 0 !important;
   max-width: 1400px !important;
@@ -35,3 +36,30 @@ blockquote {
 
 body #topNav a {
   color: #fff !important; }
+=======
+/* Colors */
+/* Typography */
+q, blockquote {
+  font-family: "Lora", serif; }
+
+#canvas {
+  padding: 0;
+  margin: 0;
+  max-width: none; }
+
+#page {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#header {
+  background-color: #694489;
+  padding: 20px !important; }
+
+#footer {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: 20px; }
+>>>>>>> get-help

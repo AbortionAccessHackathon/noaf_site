@@ -2,8 +2,9 @@
 @import 'variables';
 @import 'mixins';
 
+@import "components/page";
 @import 'components/header';
 @import 'components/nav';
 @import 'components/footer';
-@import 'components/social';
-@import 'components/form';
+@import "components/form";
+
