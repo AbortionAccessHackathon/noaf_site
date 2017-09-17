@@ -5,14 +5,16 @@ color: $eggplant; }
 
 .canvas-style-masthead-logo-left.header-subtitle-none #header,
 .canvas-style-masthead-logo-right.header-subtitle-none #header {
-  padding-top: 30px !important;
+  /*padding-top: 30px !important;*/
 }
 
 #header {
-  background: $eggplant;
-  padding: 30px;
+  background: $white !important;
+  padding: 0px;
 
-  .logo a {
-    color: $white;
+  img {
+    background-color: $eggplant;
+    padding: 30px !important;
+    /*margin: 0px;*/
   }
 }
