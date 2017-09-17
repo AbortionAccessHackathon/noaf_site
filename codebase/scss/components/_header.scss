@@ -1,5 +1,10 @@
-.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
-padding: 30px;
-background: #FFF0F5; }
-.col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
-color: #694489; }
+// .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
+// padding: 30px;
+// background: #FFF0F5; }
+// .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content h1 {
+// color: #694489; }
+
+#header {
+  background-color: $eggplant;
+  padding: 20px !important;
+}
