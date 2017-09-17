@@ -9,6 +9,24 @@
 	//sorry//
 }
 
+// Typography 
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+h1 {
+	color: $limegreen;
+	font-family: "Effra Bold", sans;
+	font-size: 48px;
+	font-size: 3em;
+	letter-spacing: 3px;
+	letter-spacing: .06em;
+	line-height: 1.25em;
+}
+q,
+blockquote {
+  font-family: 'Lora', serif;
+}
+
+
 #block-yui_3_17_2_3_1505592228283_7204, #block-yui_3_17_2_3_1505599786542_36045, #block-yui_3_17_2_3_1505599786542_37125 {
 	width: 30%;
 	display: inline-block;
