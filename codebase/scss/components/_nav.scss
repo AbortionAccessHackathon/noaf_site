@@ -13,11 +13,12 @@ body #categoryNav ul > li.active-link > a {
   color: $limegreen !important;
 }
 
-body #topNav nav {
-  /*float: right;*/
-  /*position: absolute;*/
-  vertical-align: middle;
-  margin: auto;
-  /*margin-right: 15px;*/
+#topNav nav, #categoryNav nav {
+  float: right !important;
+  width: inherit !important;
+  text-align: inherit !important;
+}
 
+#topNav {
+  flex-grow: 1 !important;
 }
