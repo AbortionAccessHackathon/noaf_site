@@ -1,7 +1,10 @@
 body #topNav ul li a {
   color: $darkgrey;
   background-color: $white !important;
-  vertical-align: middle !important;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .5px;
+  font-weight: bold;
 }
 
 body #topNav ul > li.active-link > a,
