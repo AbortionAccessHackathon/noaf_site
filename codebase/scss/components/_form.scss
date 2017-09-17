@@ -1,1 +1,16 @@
-
+.form-block {
+	background-color: $eggplant !important;
+	color: $white !important;
+	input {
+		color: $limegreen !important;
+		&.button {
+			transition: all 0.5s ease;
+			color: $eggplant !important;
+			background-color: $lightgreen !important;
+			&:hover,
+			&:focus {
+				background-color: $lightgreen !important;
+			}
+		}
+	}
+}

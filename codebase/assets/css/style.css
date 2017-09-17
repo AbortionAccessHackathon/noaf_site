@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
 * {
   box-sizing: border-box; }
 
@@ -6,23 +7,65 @@
   max-width: 1400px !important;
   margin: 0 !important; }
 
-#block-yui_3_17_2_3_1505592228283_7204, #block-yui_3_17_2_3_1505599786542_36045, #block-yui_3_17_2_3_1505599786542_37125 {
+h1 {
+  color: #4AC948;
+  font-family: "Effra Bold", sans;
+  font-size: 48px;
+  font-size: 3em;
+  letter-spacing: 3px;
+  letter-spacing: .06em;
+  line-height: 1.25em;
+  text-transform: uppercase; }
+
+h2 {
+  color: #694489;
+  font-family: "Effra Light", sans;
+  font-size: 22px;
+  font-size: 1.375em;
+  line-height: 1.33em; }
+
+h3 {
+  color: #4AC948;
+  font-size: 18px;
+  font-size: 1.125em;
+  font-family: "Effra Bold", sans;
+  letter-spacing: 3px;
+  letter-spacing: .06em; }
+
+p {
+  color: #5B5A68;
+  font-size: 18px;
+  font-size: 1.125em;
+  line-height: 1.25em;
+  font-family: "Effra Light", sans;
+  hyphens: none; }
+
+q,
+blockquote {
+  font-family: 'Lora', serif;
+  color: #694489;
+  font-style: italic; }
+
+a,
+a:link {
+  transition: all 0.5s ease;
+  color: #4AC948;
+  text-decoration: none;
+  border-bottom: solid 1px #4AC948; }
+  a:hover,
+  a:link:hover {
+    color: #90EE90;
+    border-bottom-color: #90EE90; }
+
+#block-yui_3_17_2_3_1505592228283_7204,
+#block-yui_3_17_2_3_1505599786542_36045,
+#block-yui_3_17_2_3_1505599786542_37125 {
   width: 30%;
   display: inline-block; }
-  #block-yui_3_17_2_3_1505592228283_7204 + .sqs-block-spacer, #block-yui_3_17_2_3_1505599786542_36045 + .sqs-block-spacer, #block-yui_3_17_2_3_1505599786542_37125 + .sqs-block-spacer {
+  #block-yui_3_17_2_3_1505592228283_7204 + .sqs-block-spacer,
+  #block-yui_3_17_2_3_1505599786542_36045 + .sqs-block-spacer,
+  #block-yui_3_17_2_3_1505599786542_37125 + .sqs-block-spacer {
     display: none !important; }
-
-#canvas {
-  padding: 0;
-  margin: 0;
-  max-width: none; }
-
-#page {
-  padding-left: 25px;
-  padding-right: 25px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto; }
 
 #canvas {
   padding: 0;
@@ -59,3 +102,15 @@ body #topNav a {
   background-color: #1A1A1A;
   color: #FFFFFF;
   padding: 20px; }
+
+.form-block {
+  background-color: #694489 !important;
+  color: #FFFFFF !important; }
+  .form-block input {
+    color: #4AC948 !important; }
+    .form-block input.button {
+      transition: all 0.5s ease;
+      color: #694489 !important;
+      background-color: #90EE90 !important; }
+      .form-block input.button:hover, .form-block input.button:focus {
+        background-color: #90EE90 !important; }
