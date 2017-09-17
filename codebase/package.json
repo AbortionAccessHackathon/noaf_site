@@ -16,6 +16,7 @@
     "gulp-sass": "latest",
     "gulp-sass-lint": "^1.3.3",
     "gulp-uglify": "latest",
-    "gulp-util": "latest"
+    "gulp-util": "latest",
+    "sass-svg": "^1.1.0"
   }
 }
