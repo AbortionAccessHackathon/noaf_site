@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 	sassLint = require('gulp-sass-lint');
 
 gulp.task('sass', function () {
-  gulp.src('./scss/*.scss')
+  gulp.src('./scss/**/*.scss')
   	.pipe(sassLint())
   	.pipe(sassLint.format())
   	.pipe(sassLint.failOnError())
@@ -14,7 +14,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', function() {
-  gulp.watch('scss/**.scss', ['sass']);
+  gulp.watch('scss/**/*.scss', ['sass']);
   gulp.watch('**.html', ['html']);
 });
 
