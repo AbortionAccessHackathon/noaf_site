@@ -2,6 +2,11 @@
 
 ## Development Setup
 
+Prereqs:
+* `nodejs` - https://nodejs.org/en/
+* `npm` or `yarn` (npm comes installed with `nodejs`)
+* sass?
+
 If you want to run with the Pandas, you need to `gulp`!
 `sudo npm install --global gulp`
 
