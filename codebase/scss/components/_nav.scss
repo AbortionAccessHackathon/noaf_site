@@ -1,3 +1,9 @@
-body #topNav a {
-  color: $white !important;
+body #topNav ul li a {
+  color: $darkgrey;
+  background-color: $white !important;
+  vertical-align: middle !important;
+}
+
+.active-link {
+  color: $limegreen !important;
 }
