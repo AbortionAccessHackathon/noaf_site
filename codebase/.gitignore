@@ -2,6 +2,7 @@
 package-lock.json
 .idea
 /assets
+/assets/css
 ../.idea
 .idea/
 node_modules/
