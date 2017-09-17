@@ -5,6 +5,7 @@ body #topNav ul li a {
 }
 
 body #topNav ul > li.active-link > a,
-body #categoryNav ul >li.active-link > a {
+body #categoryNav ul > li.active-link > a {
+  /* sorry. - Colin */
   color: $limegreen !important;
 }
