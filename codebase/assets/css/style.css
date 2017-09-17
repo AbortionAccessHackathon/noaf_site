@@ -24,6 +24,18 @@
   margin-left: auto;
   margin-right: auto; }
 
+#canvas {
+  padding: 0;
+  margin: 0;
+  max-width: none; }
+
+#page {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child .sqs-block-content {
   padding: 30px; }
 
