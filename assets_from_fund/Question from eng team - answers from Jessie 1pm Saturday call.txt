@@ -1,0 +1,45 @@
+Questions (with answers from Jessie):
+
+* Do you have a supporter database (salsa, etc) we should know about or plug into?
+
+We have mailchimp.  People who donate through paypal get an automatic link to the mailchimp page.
+
+
+* Do you have a Spanish name? It's best practice to make sure that it’s translated the same way every single time; Natalie can consult with this if you don't have one yet.
+
+No, we don't have a Spanish name.
+
+
+* Re: donations, we're looking at some easy optimizations around that to encourage recurring donations etc. Are you okay with us looking at this?
+
+Sure!
+
+
+* Do you need any autoresponse emails translated?
+
+Can you clarify how that process would look?  At this point, our Spanish outreach is primarily targeted toward people who need funding and people who may be volunteers who speak English and Spanish.
+
+
+* Do you have a content person (email, social) who handles Spanish stuff?
+
+No, we don't generally generate a lot of Spanish content for emails or social.  It's primarily directed toward outreach materials for potential clients.  Cat, our intake coordinator, has taken the lead on that.
+
+
+* Is the clinic in Baton Rouge still a provider? Looks like this switched?
+
+It is, but their online presence currently sucks.  They have a new administrator, so hopefully that will improve.  There is no website currently.
+
+
+* Which is the right website for Whole Woman's Health? whccnola or the other one? 
+
+Yes, http://whccnola.com/
+
+
+* How do you manage your email list? Do you have an email program?
+
+Just on mailchimp.  We're looking at switching to Salsa.
+
+
+* Do we need to communicate anything about patient eligibility on the site?
+
+No, we don't have strict standards for patient eligibility.

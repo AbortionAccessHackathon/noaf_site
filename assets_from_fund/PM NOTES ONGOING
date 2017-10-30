@@ -1,0 +1,62 @@
+NEXT STEPS
+
+* Finalize designs by end of day
+* Content approval plans ongoing thru tomorrow noon call
+* Port over prelim content to squarespace
+* Figure out what fat to trim
+
+
+CLOSEOUT REPORT
+Pleased to say that we got the bulk of the very heavy lifting done this morning, and tomorrow will be dedicated mostly to editing copy and finishing the styling.
+
+* We're moving on to copy work for the bulk of Sunday. The live site is at https://elizabeth-yalkut.squarespace.com/ . Please feel free to gut check some of the copy, but be advised the site content will be shifting as you view it. (Relatedly, if you've ever wanted to see a website get built in real time, now's your chance!)
+* We'll be sending an update on styling as soon as we can in the morning.
+
+REQUESTS
+
+* Do you have an SVG of the logo? If not, that's fine, but please hook us up if so!
+* Social networks you want connected -- links to profile and login info if you're comfortable.
+
+What we're not doing
+
+* Store setup (sorry)
+* Implementing stripe as a donation system; we're gonig to hew close to what you have for now
+
+TRANSITION PLAN
+
+* Our goal for End of Day tomorrow is as follows: Get it to a place where we can hand it over in development mode, where you can make edits to the copy as you see fit.
+* If reassigning owner winds up being easy we'll do that and help you with the final rollout, otherwise we'll deliver a transition plan and help you spin up an account of your own.
+* Afterwards we'll work on spinning down access, in particular removing me from the accounts I needed access to this weekend.
+
+
+
+
+
+
+STRETCH GOALS
+
+* Google analytics setup
+* Ship adwords upload
+
+
+
+
+VALUEADDS
+
+* google analytics setup
+
+
+ENGINEERING
+
+* ENDGOAL paste bigass compiled css blob into custom css on squarespace
+
+
+STRETCH GOAL
+
+* Store plan
+
+
+
+NOAF COPY => JAMMING IN SHIT THAT THEY SENT US
+
+COPYPASTA IN => DUMPING INTO NOAF COPY => MOVING SHIT INTO SQUARESPACE
