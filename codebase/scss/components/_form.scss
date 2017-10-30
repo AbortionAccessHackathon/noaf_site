@@ -8,14 +8,7 @@ form {
 		color: $limegreen !important;
 		padding: 16px;
 		&.button {
-			transition: all 0.5s ease;
-			border-width: 0 !important;
-			color: $eggplant !important;
-			background-color: $lightgreen !important;
-			&:hover,
-			&:focus {
-				background-color: $limegreen !important;
-			}
+			@extend .sqs-block-button-element;
 		}
 	}
 	.field-list > div.form-item {
