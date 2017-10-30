@@ -1,0 +1,10 @@
+.sqs-block-button-element {
+    transition: all 0.5s ease;
+    border-width: 0 !important;
+    color: $eggplant !important;
+    background-color: $lightgreen !important;
+    &:hover,
+    &:focus {
+        background-color: $limegreen !important;
+    }
+}
