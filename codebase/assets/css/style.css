@@ -44,24 +44,25 @@ form::after {
 .col.sqs-col-12.span-12 .sqs-block.html-block.sqs-block-html:first-child h2 {
   color: #694489; }
 
-.canvas-style-masthead-logo-left.header-subtitle-none #header #topNav li,
-.canvas-style-masthead-logo-right.header-subtitle-none #header #topNav li {
-  padding-top: 60px !important; }
+.sqs-block-content h1::before {
+  content: "\00a0 \00a0 \00a0 \00a0";
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Cpath%20fill%3D%22%2332CD32%22%20d%3D%22M34%2E6%2C19%2E3c%2D8%2E9%2C3%2E3%2D8%2E5%2C12%2E5%2D8%2E5%2C12%2E5h%2D1%2E5c0%2E3%2D3%2E2%2C1%2E1%2D6%2E2%2C2%2E4%2D9%2E1c1%2E9%2D3%2E4%2C2%2E8%2D3%2E6%2C2%2E8%2D7S28%2C9%2E2%2C26%2E8%2C7%2E2%20%20%20%20%20%20%20%20%20%20%20%20%20c%2D1%2E4%2D2%2E3%2D2%2E6%2D4%2E7%2D3%2E7%2D7%2E2c%2D1%2C2%2E5%2D2%2E2%2C4%2E9%2D3%2E6%2C7%2E3c%2D1%2E2%2C2%2E1%2D3%2E1%2C5%2E2%2D3%2E1%2C8%2E5s0%2E9%2C3%2E6%2C2%2E8%2C7c1%2E4%2C2%2E9%2C2%2E2%2C6%2C2%2E4%2C9%2E1H20%20%20%20%20%20%20%20%20%20%20%20%20%20c0%2C0%2C0%2E5%2D9%2E2%2D8%2E5%2D12%2E5S0%2C22%2E2%2C0%2C25%2E3s0%2C6%2E1%2C6%2E4%2C7%2E5c%2D1%2E5%2D4%2E3%2C0%2E9%2D7%2C4%2E3%2D6%2E6c3%2E3%2C0%2E2%2C6%2E1%2C2%2E3%2C7%2C5%2E5H17c%2D0%2E7%2C0%2D1%2E2%2C0%2E6%2D1%2E2%2C1%2E2%20%20%20%20%20%20%20%20%20%20%20%20%20s0%2E6%2C1%2E2%2C1%2E2%2C1%2E2h0%2E8c%2D0%2E1%2C1%2E6%2D1%2E4%2C2%2E8%2D3%2C2%2E8c%2D2%2E8%2C0%2D2%2E4%2D2%2E8%2D1%2E9%2D4c0%2E2%2D0%2E4%2C0%2E4%2D0%2E7%2C0%2E7%2D0%2E9c0%2C0%2D4%2D0%2E3%2D4%2E9%2C2%2E8%20%20%20%20%20%20%20%20%20%20%20%20%20C7%2E8%2C37%2E9%2C9%2E7%2C41%2C13%2E7%2C41s5%2E8%2D2%2E8%2C6%2E1%2D4%2E3c0%2E2%2D0%2E8%2C0%2E3%2D1%2E6%2C0%2E3%2D2%2E4h1%2E8c0%2E1%2C0%2E9%2C0%2E1%2C2%2D0%2E1%2C2%2E9c%2D0%2E8%2C0%2E7%2D1%2E5%2C1%2E8%2D1%2E7%2C2%2E9%20%20%20%20%20%20%20%20%20%20%20%20%20c%2D0%2E2%2C0%2E9%2D0%2E7%2C1%2E7%2D1%2E5%2C2%2E1c0%2E9%2C0%2E3%2C2%2C0%2C2%2E8%2D0%2E7c%2D0%2E1%2C0%2E9%2C0%2E3%2C1%2E8%2C0%2E9%2C2%2E4c0%2E5%2C0%2E6%2C0%2E7%2C1%2E2%2C0%2E9%2C1%2E9c0%2E3%2D0%2E7%2C0%2E7%2D1%2E5%2C1%2E2%2D2%2E1%20%20%20%20%20%20%20%20%20%20%20%20%20c0%2E9%2D0%2E9%2C0%2E7%2D2%2E7%2C0%2E9%2D2%2E1s2%2E4%2C0%2E9%2C2%2E8%2C0%2E7c%2D0%2E9%2D0%2E5%2D1%2E7%2D1%2E3%2D1%2E9%2D2%2E4c%2D0%2E3%2D1%2D0%2E8%2D2%2D1%2E7%2D2%2E6c0%2C0%2D0%2E1%2D1%2E1%2C0%2D2%2E9h1%2E8%20%20%20%20%20%20%20%20%20%20%20%20%20c0%2C0%2E8%2C0%2E1%2C1%2E6%2C0%2E3%2C2%2E4c0%2E4%2C1%2E7%2C2%2E1%2C4%2E3%2C6%2E1%2C4%2E3s5%2E8%2D3%2E1%2C4%2E9%2D6%2E1C37%2C31%2E7%2C32%2E9%2C32%2C32%2E9%2C32c0%2E3%2C0%2E3%2C0%2E5%2C0%2E6%2C0%2E7%2C0%2E9%20%20%20%20%20%20%20%20%20%20%20%20%20c0%2E7%2C1%2E2%2C0%2E9%2C4%2D1%2E9%2C4c%2D1%2E6%2C0%2D2%2E9%2D1%2E2%2D3%2D2%2E8h0%2E9c0%2E7%2C0%2C1%2E2%2D0%2E6%2C1%2E2%2D1%2E2s%2D0%2E6%2D1%2E2%2D1%2E2%2D1%2E2l0%2C0h%2D0%2E9c1%2D3%2E1%2C3%2E8%2D5%2E3%2C7%2D5%2E5%20%20%20%20%20%20%20%20%20%20%20%20%20c3%2E4%2D0%2E3%2C5%2E8%2C2%2E4%2C4%2E3%2C6%2E6c6%2E2%2D1%2E5%2C6%2E2%2D5%2E8%2C6%2E2%2D7%2E5C46%2E2%2C23%2E6%2C42%2E2%2C16%2E6%2C34%2E6%2C19%2E3z%22%2F%3E%3C%2Fsvg%3E"); }
 
+/*.canvas-style-masthead-logo-left.header-subtitle-none #header #topNav li ,*/
+/*.canvas-style-masthead-logo-right.header-subtitle-none #header #topNav li {*/
+/*padding-top: 60px !important;*/
+/*}*/
 #header {
   background: #fff !important;
-  padding: 0px; }
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #694489; }
   #header img {
+    float: left;
     background-color: #694489;
-    padding: 30px !important;
-    /*margin: 0px;*/
-    /*  background: $eggplant;
-  padding: 30px;
-  .logo {
-    a {
-      color: $white;
-    }
-*/ }
+    max-height: 116px; }
 
 body #topNav ul li a {
   color: #5b5a68;
@@ -76,15 +77,13 @@ body #categoryNav ul > li.active-link > a {
   /* sorry. - Colin */
   color: #4ac948 !important; }
 
-body #topNav nav {
-  /*WIP */
-  margin-right: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%); }
+#topNav nav, #categoryNav nav {
+  float: right !important;
+  width: inherit !important;
+  text-align: inherit !important; }
+
+#topNav {
+  flex-grow: 1 !important; }
 
 #footer {
   background-color: #1a1a1a;
