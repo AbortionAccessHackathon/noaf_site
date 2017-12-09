@@ -1,24 +1,50 @@
-/*body #topNav ul li a {
-  color: $darkgrey;
-  background-color: $white !important;
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: .5px;
-  font-weight: bold;
-}
-
+/*Active link eggplant, other links lavendar*/
 body #topNav ul > li.active-link > a,
 body #categoryNav ul > li.active-link > a {
-  color: $limegreen !important;
+  color: $eggplant !important;
 }
 
-#topNav nav, #categoryNav nav {
-  float: right !important;
-  width: inherit !important;
-  text-align: inherit !important;
+body #topNav ul > li > a,
+body #categoryNav ul > li > a {
+  color: $lavendar !important;
+}
+
+/*Header row*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid $eggplant;
+  padding: 0px;
+  background: $white !important;
+
+  img {
+    float: left;
+    background-color: $eggplant;
+  }
+
+  nav {
+    background-color: $white;
+    text-align: center;
+    margin: 0 auto;
+    left: 50%;
+    text-align: inherit;
+
+    ul {
+      flex-grow: 1 !important;
+    }
+  }
 }
 
 #topNav {
   flex-grow: 1 !important;
 }
-*/
+
+/*Nav links*/
+#topNav ul li a {
+  color: $darkgrey;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: .5px;
+  font-weight: bold;
+}
