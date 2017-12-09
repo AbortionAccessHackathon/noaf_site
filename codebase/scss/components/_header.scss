@@ -16,7 +16,7 @@
     h1 {
         position: relative;
         text-indent: 72px;
-        &:before {
+        &:after {
             content: "";
             background-position: bottom;
             height: 50px;
