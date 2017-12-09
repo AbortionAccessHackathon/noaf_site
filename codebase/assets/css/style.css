@@ -89,8 +89,6 @@ body #categoryNav ul > li > a {
 /*Header row*/
 header {
   display: flex;
-  align-items: center;
-  justify-content: center;
   border-bottom: 2px solid #694489;
   padding: 0px;
   background: #fff !important; }
@@ -104,6 +102,8 @@ header {
     left: 50%;
     text-align: inherit; }
     header nav ul {
+      display: flex;
+      justify-content: center;
       flex-grow: 1 !important; }
 
 #topNav {
