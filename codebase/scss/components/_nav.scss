@@ -3,6 +3,10 @@ header {
   border-bottom: 2px solid $eggplant;
 }
 
+#topNav {
+  padding-right: 5px;
+}
+
 /*Nav links are bold*/
 #topNav ul li a {
   font-weight: bold;
