@@ -37,11 +37,11 @@ blockquote {
 
 a,
 a:link {
-  border-bottom: solid 1px $limegreen;
+  border-bottom: solid 1px $eggplant;
   text-decoration: none;
   transition: all .5s ease;
   &:hover {
-    border-bottom-color: $lightgreen;
+    border-bottom-color: $eggplant;
     color: $lightgreen;
   }
 }
