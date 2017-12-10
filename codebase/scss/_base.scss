@@ -23,6 +23,11 @@ p {
   hyphens: none;
 }
 
+hr {
+  background-color: $eggplant !important;
+  height: 2px !important;
+}
+
 q,
 blockquote {
   color: $eggplant;
