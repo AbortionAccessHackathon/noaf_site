@@ -1,50 +1,9 @@
-/*Active link eggplant, other links lavendar*/
-body #topNav ul > li.active-link > a,
-body #categoryNav ul > li.active-link > a {
-  color: $eggplant !important;
-}
-
-body #topNav ul > li > a,
-body #categoryNav ul > li > a {
-  color: $lavendar !important;
-}
-
-/*Header row*/
+/*Header row -- bottom border of eggplant*/
 header {
-  display: flex;
   border-bottom: 2px solid $eggplant;
-  padding: 0px;
-  background: $white !important;
-
-  img {
-    float: left;
-    background-color: $eggplant;
-  }
-
-  nav {
-    background-color: $white;
-    text-align: center;
-    margin: 0 auto;
-    left: 50%;
-    text-align: inherit;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      flex-grow: 1 !important;
-    }
-  }
 }
 
-#topNav {
-  flex-grow: 1 !important;
-}
-
-/*Nav links*/
+/*Nav links are bold*/
 #topNav ul li a {
-  color: $darkgrey;
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: .5px;
   font-weight: bold;
 }
