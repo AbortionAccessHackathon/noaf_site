@@ -2,8 +2,8 @@ div.info-footer-wrapper {
   background-color: $black;
   color: $white;
   padding: 20px;
-  width: 80%;
   margin: 0 auto;
+  width: 100%;
   h3 {
     text-transform: uppercase;
     color: white;
@@ -37,6 +37,15 @@ div.info-footer-wrapper {
             background-color: $limegreen !important;
         }
       }
+    }
+    label {
+      display: none !important;
+    }
+    .field-element {
+      width: 300px !important;
+    }
+    .field-list {
+      float: left;
     }
     .field-list > div.form-item {
       float: left;
