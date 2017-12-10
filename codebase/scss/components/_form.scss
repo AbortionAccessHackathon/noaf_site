@@ -8,11 +8,21 @@ form {
 		color: $limegreen !important;
 		padding: 16px;
 		&.button {
-			@extend .sqs-block-button-element;
+			transition: all 0.5s ease;
+			border-width: 0 !important;
+			color: $eggplant !important;
+			background-color: $lightgreen !important;
+			&:hover,
+			&:focus {
+					background-color: $limegreen !important;
+			}
 		}
 	}
 	.field-list > div.form-item {
 		float: left;
 		width: 50%;
+	}
+	textarea {
+		margin-left: 8px !important;
 	}
 }

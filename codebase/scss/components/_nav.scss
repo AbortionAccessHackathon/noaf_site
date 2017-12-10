@@ -1,24 +1,13 @@
-body #topNav ul li a {
-  color: $darkgrey;
-  background-color: $white !important;
-  text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: .5px;
-  font-weight: bold;
-}
-
-body #topNav ul > li.active-link > a,
-body #categoryNav ul > li.active-link > a {
-  /* sorry. - Colin */
-  color: $limegreen !important;
-}
-
-#topNav nav, #categoryNav nav {
-  float: right !important;
-  width: inherit !important;
-  text-align: inherit !important;
+/*Header row -- bottom border of eggplant*/
+header {
+  border-bottom: 2px solid $eggplant;
 }
 
 #topNav {
-  flex-grow: 1 !important;
+  padding-right: 15px;
+}
+
+/*Nav links are bold*/
+#topNav ul li a {
+  font-weight: bold;
 }

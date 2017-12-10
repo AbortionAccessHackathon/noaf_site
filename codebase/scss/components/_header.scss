@@ -1,7 +1,7 @@
 @import '../../node_modules/sassdash/index';
 @import '../../node_modules/sass-svg/index';
 
-.col.sqs-col-12.span-12 {
+/*.col.sqs-col-12.span-12 {
     .sqs-block.html-block.sqs-block-html:first-child {
         .sqs-block-content {
             padding: 30px;
@@ -11,12 +11,12 @@
         }
     }
 }
-
-.sqs-block-content {
+*/
+/*.sqs-block-content {
     h1 {
         position: relative;
         text-indent: 72px;
-        &:before {
+        &:after {
             content: "";
             background-position: bottom;
             height: 50px;
@@ -28,25 +28,10 @@
         }
     }
 }
-
+*/
 /*.canvas-style-masthead-logo-left.header-subtitle-none #header #topNav li ,*/
 
 /*.canvas-style-masthead-logo-right.header-subtitle-none #header #topNav li {*/
 
 /*padding-top: 60px !important;*/
 
-#header {
-    background: $white !important;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 2px solid $eggplant;
-
-    img {
-        float: left;
-        background-color: $eggplant;
-        padding: 30px !important;
-        max-height: 116px;
-    }
-}
