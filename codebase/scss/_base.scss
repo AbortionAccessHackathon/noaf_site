@@ -22,26 +22,3 @@
 p {
   hyphens: none;
 }
-
-hr {
-  background-color: $eggplant !important;
-  height: 2px !important;
-}
-
-q,
-blockquote {
-  color: $eggplant;
-  font-family: 'Lora', serif;
-  font-style: italic;
-}
-
-a,
-a:link {
-  border-bottom: solid 1px $eggplant;
-  text-decoration: none;
-  transition: all .5s ease;
-  &:hover {
-    border-bottom-color: $eggplant;
-    color: $lightgreen;
-  }
-}
