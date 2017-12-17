@@ -4,53 +4,69 @@ div.info-footer-wrapper {
   padding: 20px;
   margin: 0 auto;
   width: 100%;
+
+  #infoFooterBlock {
+    width: 90%;
+    margin: 0 5%;
+  }
+
   h3 {
     text-transform: uppercase;
-    color: white;
+    color: $white;
   }
+
   .sqs-block-button-element {
     transition: all 0.5s ease;
     border-width: 0 !important;
     color: $eggplant !important;
     background-color: $lightgreen !important;
-    &:hover,
-    &:focus {
+
+    &:hover, &:focus {
         background-color: $limegreen !important;
     }
   }
+
   form {
-    background: #1a1a1a !important;
+    background: $black !important;
     color: $white !important;
-    @extend %clearfix;
-    padding: 16px;
+    /*@extend %clearfix;*/
+    padding: 0px !important;
     padding: 1rem;
+
     input {
-      color: $limegreen !important;
+      color: $black !important;
       padding: 16px;
+
       &.button {
         transition: all 0.5s ease;
         border-width: 0 !important;
         color: $eggplant !important;
         background-color: $lightgreen !important;
-        &:hover,
-        &:focus {
-            background-color: $limegreen !important;
+        float: left;
+
+        &:hover, &:focus {
+          background-color: $limegreen !important;
         }
       }
     }
+
     label {
       display: none !important;
     }
-    .field-element {
-      width: 300px !important;
-    }
+
     .field-list {
-      float: left;
+      padding: 0px !important;
+      margin-right: 20px;
+
+      div.form-item {
+
+        .field-element {
+          width: 300px !important;
+          margin: 0;
+        }
+      }
     }
-    .field-list > div.form-item {
-      float: left;
-      width: 50%;
-    }
+
     textarea {
       margin-left: 8px !important;
     }
